@@ -2,7 +2,7 @@ import React from "react";
 
 function Training() {
   return (
-    <section className="page blue">
+    <>
       <h3>What can we achieve together?</h3>
       <p>
         Strength and Conditioning - Help you get stronger, faster, more flexible
@@ -28,7 +28,7 @@ function Training() {
         Now imagine the new you if we mix those three styles of training!
         Envision it and let's achieve it.
       </p>
-    </section>
+    </>
   );
 }
 

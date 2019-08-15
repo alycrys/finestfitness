@@ -2,7 +2,11 @@ import React from "react";
 
 function About() {
   return (
-    <section className="page white">
+    <>
+    <div className="images">
+
+    </div>
+    <div className="content">
       <h3>About me</h3>
       <p>
         As a teen, I have competed in trampoline and "Savate" Boxing
@@ -26,7 +30,8 @@ function About() {
         <li>Experience with people suffering from obesity and diabetes</li>
         <li>Trained First Aider</li>
       </ul>
-    </section>
+      </div>
+    </>
   );
 }
 
